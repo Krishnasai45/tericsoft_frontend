@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# TericSoft-Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div>
+  <h4>
+In the project directory, tried to create an application where user can add ,edit or delete any movie details.  
+  </h4>
+</div>
 
-## Available Scripts
+## Tech Stack used:
 
-In the project directory, you can run:
+<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
+<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
+<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
+<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation and Setup Instruction
+#### Run the following commands in your terminal
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+`git clone https://github.com/Krishnasai45/tericsoft_frontend.git`
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`cd tericsoft_frontend`
 
-### `npm run build`
+`npm install`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`npm start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Libraries installed
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React 
+- Axios
+- React router dom
+- Matrial UI
 
-### `npm run eject`
+## Register Page
+<h4>User can register with phone number and password</h4>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Login Page
+<h4>User can login with phone number and password</h4>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## DashBoaerd Page
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<h4>After Successful login user can see the data of movies in a tabular form, where user can edit,add,delete the movie , </br>
+At the nav bar user can click to logout . After logout user can redirect to login page
+</h4>
 
-## Learn More
+## Add Movie page
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h4>User can add the movie with movie name,year,genre. After successful adding user redirect to dashboard page</h4>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Edit Page
 
-### Code Splitting
+<h4>User can Edit the movie with the pre filled movie details. After successful edit user can see the "Go Back" button to move back to dashboar</h4>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributors
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h3>Krishna Sai</h3> <a href="https://github.com/Krishnasai45">Krishna</a>
