@@ -8,8 +8,6 @@ function App() {
   return (
     <div className="App">
         <h1>Welcome to movies app</h1>
-        {/* <Register/> */}
-        {/* <AddMovie/> */}
         <MovieRoute/>
     </div>
   );

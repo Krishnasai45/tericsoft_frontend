@@ -5,7 +5,6 @@ import { useSelector, useDispatch } from "react-redux";
 import {  useHistory, useParams } from "react-router-dom";
 import {  moviesData } from "../redux/movieRedux/action";
 import { NavBar } from "./NavBar";
-// import { NavBar } from "../parts/NavBar";
 const useStyles = makeStyles((theme) => ({
   root: {
     "& > *": {

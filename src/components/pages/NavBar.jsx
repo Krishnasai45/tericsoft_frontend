@@ -8,7 +8,6 @@ import Typography from "@material-ui/core/Typography";
 import { deepOrange, deepPurple, } from "@material-ui/core/colors";
 import { useHistory } from "react-router-dom";
 import {  makeStyles } from "@material-ui/core/styles";
-const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({
   root: {

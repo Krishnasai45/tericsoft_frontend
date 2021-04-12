@@ -7,10 +7,9 @@ import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
-import { Avatar, Backdrop, Button, Container, Fade, Modal, TextField, Typography } from "@material-ui/core";
+import {  Typography } from "@material-ui/core";
 import { useHistory, useParams } from "react-router";
 import { useDispatch, useSelector } from "react-redux";
-// import { getdata } from "../redux/data/actionCreator";
 import { deleteData, editMovie, moviesData } from "../redux/movieRedux/action";
 import { NavBar } from "./NavBar";
 
@@ -91,21 +90,8 @@ export function Home() {
     <NavBar/>
     <Typography variant="h3">To Add Movies <Typography className={classes.click} onClick = {handleClick}>Click Hear</Typography></Typography>
     <div style = {{display:"flex",justifyContent:"center"}}>
-        {/* <div className={classes.profile_avatar_container}>
-            <Avatar
-              className={classes.profile_image} 
-              href={`${data.name}`}
-              src="" 
-              alt = {data.name}
-            />
-        </div> */}
-        {/* <div>
-            <h1>Student Name : {data.name}</h1>
-            <h3>Gender : {data.gender}</h3>
-            <h3>Grade : {data.grade}</h3>
-        </div> */}
+
       </div> 
-      {/* <Button onClick = {handleClick}>Go Back</Button> */}
       <TableContainer component={Paper}>
         <Table className={classes.table} aria-label="customized table">
           <TableHead>

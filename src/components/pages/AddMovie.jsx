@@ -2,11 +2,9 @@ import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Container, TextField, Typography } from "@material-ui/core";
 import { useSelector, useDispatch } from "react-redux";
-// import { postUsersData } from "../redux/login/actrionCreator";
 import { Redirect } from "react-router-dom";
 import { AddMovieData } from "../redux/movieRedux/action";
 import { NavBar } from "./NavBar";
-// import { NavBar } from "../parts/NavBar";
 const useStyles = makeStyles((theme) => ({
   root: {
     "& > *": {

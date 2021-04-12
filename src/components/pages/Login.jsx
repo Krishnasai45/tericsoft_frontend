@@ -45,8 +45,7 @@ export function Login() {
             // console.log(data)
                localStorage.setItem("jwt",data.token)
                localStorage.setItem("user",JSON.stringify(data.admin))
-            //    dispatch({type:"USER",payload:data.user})
-            //    history.push('/home')
+
             setIsLogin(true)
           
         })
