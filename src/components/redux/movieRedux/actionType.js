@@ -1,0 +1,18 @@
+export const MOVIES_REQUEST = "MOVIES_REQUEST"
+export const MOVIES_SUCCESS = "MOVIEs_SUCCESS"
+export const MOVIES_FAILURE = "MOVIES_FAILURE"
+
+// Delete Movie
+export const DELETE_REQUEST = "DELETE_REQUEST"
+export const DELETE_SUCCESS = "DELETE_SUCCESS"
+export const DELETE_FAILURE = "DELETE_FAILURE"
+
+//Add Movies
+export const ADDMOVIE_REQUEST = "ADDMOVIE_REQUEST"
+export const ADDMOVIE_SUCCESS = "ADDMOVIE_SUCCESS"
+export const ADDMOVIE_FAILURE = "ADDMOVIE_FAILURE"
+
+//Edit Movie
+export const EDIT_REQUEST = "EDIT_REQUEST"
+export const EDIT_SUCCESS = "EDIT_SUCCESS"
+export const EDIT_FAILURE = "EDIT_FAILURE"
